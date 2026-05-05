@@ -10,3 +10,6 @@ onlyBuiltDependencies:
 
 publicHoistPattern:
   - onnxruntime-common
+
+overrides:
+  "@huggingface/jinja": link:../huggingface.js/packages/jinja
